@@ -2,7 +2,7 @@
 from django.shortcuts import render_to_response
 
 def home(request):
-	return render_to_response('base.html') 
+	return render_to_response('welcome.html') 
 
 def aboutus(request):
 	return render_to_response('aboutus.html')
