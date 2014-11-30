@@ -13,12 +13,34 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
   <!-- /GOOGLE FONTS -->
-  {% load staticfiles %}
-  <link rel="stylesheet" type="text/css" href="{% static '/welcome/bootstrap.css' %}" />
-  <link rel="stylesheet" type="text/css" href="{% static '/welcome/font-awesome.css' %}" />
-  <link rel="stylesheet" type="text/css" href="{% static '/welcome/icomoon.css' %}" />
-  <link rel="stylesheet" type="text/css" href="{% static '/welcome/styles.css' %}" />
-  <link rel="stylesheet" type="text/css" href="{% static '/welcome/mystyles.css' %}" />
+  
+  <link rel="stylesheet" type="text/css" href=" static/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href=" static/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href=" static/css/icomoon.css" />
+  <link rel="stylesheet" type="text/css" href=" static/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href=" static/css/mystyles.css" />
+
+  <script src="static/js/bootstrap-datepicker.js"></script>
+  <script src="static/js/bootstrap-timepicker.js"></script>
+  <script src="static/js/bootstrap.js"></script>
+  <script src="static/js/card-payment.js"></script>
+  <script src="static/js/countdown.js"></script>
+  <script src="static/js/custom.js"></script>
+  <script src="static/js/dropit.js"></script>
+  <script src="static/js/fitvids.js"></script>
+  <script src="static/js/fotorama.js"></script>
+  <script src="static/js/gridrotator.js"></script>
+  <script src="static/js/icheck.js"></script>
+  <script src="static/js/ionrangeslider.js"></script>
+  <script src="static/js/jquery.js"></script>
+  <script src="static/js/magnific.js"></script>
+  <script src="static/js/modernizr.js"></script>
+  <script src="static/js/nicescroll.js"></script>
+  <script src="static/js/owl-carousel.js"></script>
+  <script src="static/js/slimmenu.js"></script>
+  <script src="static/js/switcher.js"></script>
+  <script src="static/js/tweet.js"></script>
+  <script src="static/js/typeahead.js"></script>
  
 </head>
 
@@ -31,7 +53,7 @@
           <div class="row">
             <div class="col-md-3 col-xs-3">
               <a class="logo" href="/">
-                <img src="/img/logo-invert.png" alt="Image Alternative text" title="Image Title" />
+                <img src="static/img/logo-invert.png" alt="Image Alternative text" title="Image Title" />
               </a>
             </div>
             <!--<div class="col-md-9 col-xs-9">
@@ -63,23 +85,23 @@
             <li class="active"><a href="{% url 'home' %}">Home</a></li>
             <li><a href="/alltrekking">Trekking</a>
               <ul>
-                //<li><a href="/alltrekking">All Treks</a></li>
-                //<li><a href="/onedaytreks">1 day Trek</a></li>
-                //<li><a href="/shorttreks">Short Trek</a></li>
-                //<li><a href="/longtreks">Long Trek</a></li>
+                <li><a href="/alltrekking">All Treks</a></li>
+                <li><a href="/onedaytreks">1 day Trek</a></li>
+                <li><a href="/shorttreks">Short Trek</a></li>
+                <li><a href="/longtreks">Long Trek</a></li>
               </ul>
             </li>
-           // <li><a href="/adventure">Adventure</a>
+            <li><a href="/adventure">Adventure</a>
               <ul>
-               // <li><a href="/adventure">All Adventure</a></li>
-               // <li><a href="/wateradventure">Water Adventure</a></li>
+                <li><a href="/adventure">All Adventure</a></li>
+                <li><a href="/wateradventure">Water Adventure</a></li>
               </ul>
             </li>
-            //<li><a href="/spaecial-packages">Special Packages</a></li>
-            //<li ><a href="/blog">Blog</a></li>
-            //<li ><a href="/FAQ">FAQ</a></li>
-            //<li ><a href="/about-us">About Us</a></li>
-            //<li ><a href="/contact-us">Contact Us</a></li>
+            <li><a href="/special-packages">Special Packages</a></li>
+            <li ><a href="/blog">Blog</a></li>
+            <li ><a href="/FAQ">FAQ</a></li>
+            <li ><a href="/about-us">About Us</a></li>
+            <li ><a href="/contact-us">Contact Us</a></li>
           </ul> -->
         </div>
       </div>
@@ -91,7 +113,7 @@
         <div class="row row-wrap">
           <div class="col-md-3 col-xs-9 col-sm-6">
             <a class="logo" href="index.html">
-              <img src="/img/logo-invert.png" alt="Image Alternative text" title="Image Title" />
+              <img src="static/img/logo-invert.png" alt="Image Alternative text" title="Image Title" />
             </a>
             <p class="mb20">Booking, reviews and advices on hotels, resorts, flights, vacation rentals, travel packages, and lots more!</p>
             <ul class="list list-horizontal list-space">
